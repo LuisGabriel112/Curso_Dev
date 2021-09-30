@@ -1,0 +1,13 @@
+body{
+    background-color: #4C4C4C;
+}
+
+h1,p{
+    color: #c3c3c3;
+}
+/* Como hacer que una regla afecte a varios ID's*/
+#parrafo2, #4{
+    color:#f1f1f1 ;
+}
+
+/* para comentar rapido es ctrl shift A */

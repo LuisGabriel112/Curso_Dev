@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+}
+
+p{
+    font-family: 'Roboto';
+    color: white;
+    letter-spacing: 10px;
+    line-height: 50px;
+    word-spacing: 15px;
+}
+
+ul{
+    list-style-type: korean-hanja-formal;
+    list-style-position: initial;
+}
+
+
+ul,li{
+    font-family: 'Roboto';
+    font-size: 30px;
+    color: gray;
+}
+
+#list2{
+    list-style-image: url(img//favicon-32x32.png);
+}

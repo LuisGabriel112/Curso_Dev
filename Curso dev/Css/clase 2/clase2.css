@@ -1,0 +1,65 @@
+/* Formas de poner color*/
+
+#nombre1{
+    background-color: red;
+}
+
+#nombre2{
+    background-color: green;
+}
+
+#nombre3{
+    background-color: blue;
+}
+#rgb1{
+    background-color: rgb(255,0,0);
+}
+
+#rgb2{
+    background-color: rgb(0,255,0);
+}
+
+#rgb3{
+    background-color: rgb(0, 0,255);
+}
+
+section{
+    margin: 20px;
+}
+
+#hex1{
+    background-color: #ff0000;
+}
+
+#hex2{
+    background-color:#00ff00 ;
+}
+
+#hex3{
+    background-color:#0000ff ;
+}
+
+
+#hsl1{
+    background-color: hsl(360, 100%, 50%);
+}
+
+#hsl2{
+    background-color:hsl(120, 100%, 50%) ;
+}
+
+#hsl3{
+    background-color:hsl(240, 100%, 50%) ;
+}
+
+#rgba1{
+    background-color: rgba(255,0,0);
+}
+
+#rgba2{
+    background-color: rgba(0,255,0);
+}
+
+#rgba3{
+    background-color: rgba(0, 0,255);
+}

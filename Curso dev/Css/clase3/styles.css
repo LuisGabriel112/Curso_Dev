@@ -1,0 +1,50 @@
+/* Selector universal */
+
+*{
+    margin: 0;
+}
+
+section{
+    background-color: teal;
+    color: turquoise;
+    text-align: center;
+    /* width: 91%; */
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+
+
+div{
+    /* Empieza como las manecillas del reloj
+    (primero arriba luego derecha luego abajo y acaba en la izquierda) */
+    /* margin: 10px 10px 10px 12px ; 
+    border: 3px dotted gray ;
+    border-radius: 10px; */
+    /* Como con el margen 
+    border-radius: 10px 10px 10px 10px */
+    text-align: center;
+    color: wheat;
+    margin: 30px 5px;
+    /* Se puede hacer como el margen igual xd */
+    /* padding: 10px ; */
+
+}
+
+
+#div1{
+    background-color: lawngreen;
+    height: 50px;
+}
+
+#div2{
+    background-color: hotpink;
+    height: 80px;
+}
+
+#div3{
+    background-color: indigo;
+    height: 30px;
+}

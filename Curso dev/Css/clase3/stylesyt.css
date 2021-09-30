@@ -1,0 +1,40 @@
+body{
+    background-color: #181818;
+}
+
+.barra{
+    background-color: #202020;
+    list-style: none;
+    display: inline-flex;
+    margin-left: 35px;
+    
+}
+.It{
+    margin-right: 50px;
+    border-radius: 10px 12px 12px 12px;
+    padding: 3px;
+    font-size: 15px;
+    color: white;
+    background-color: #363636;
+    border: 1px solid #4a4a4a ;
+
+}
+
+img{
+    width: 300px;
+    height: 195px;
+}
+
+p{
+    margin-left: 5px;
+    color: white;
+    font-family: 'roboto';
+    margin-top: 0;
+    font-size: 15px;
+}
+
+.cua{
+    margin-left: 100px;
+    display: inline-block;
+}
+

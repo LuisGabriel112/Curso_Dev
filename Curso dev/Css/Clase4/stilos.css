@@ -1,0 +1,76 @@
+
+/* Esto es un clear */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    list-style-position: inside;
+}
+
+nav{
+    background-color: blueviolet;
+    padding: 10px;
+}
+
+ul li{
+    color: whitesmoke;
+    list-style-type: none;
+    background-color: turquoise;
+    /* Para hacer una barra lo mejor es meter el display
+    in line block */
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 10px;
+    border-radius: 3px;
+}
+
+header{
+    background-color: violet;
+    text-align: center;
+    padding: 20px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td{
+    border: 1px solid black;
+}
+
+div{
+    /* background-color: thistle; */
+   /*  border: 1px solid black; */
+    /* display: inline-block; */
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+
+
+img{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ /* Aqui estas seleccionando un objeto en especifico
+ dentro de la clase */
+
+.sec2 div{
+  /*   background-color: teal; */
+    display: block;
+    float: left;
+}
+
+section{
+    background-color: thistle;
+}
+
+
+/* en divs es el float y en nav es display in line block */

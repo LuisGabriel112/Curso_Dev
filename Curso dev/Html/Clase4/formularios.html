@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="">
+
+        <!--El mas normal se llama input text-->
+        <!--Autofocus selecciona el campo sin tener que tocarlo-->
+        <!--Readonly se explica solo-->
+        <label for="nombre"  >Nombre</label>
+        <input type="text" id="nombre" placeholder="pon tu nombre" autofocus readonly> <br><br>
+        <!--Para contraseñas este input password-->
+        <label for="pass">password</label>
+        <input type="password" name="" id="pass"> <br> <br>
+        <!--Para correos input email-->
+        <label for="correo">correo</label>
+        <input type="email" name="" id="correo"> <br> <br>
+        
+         <!--Input para el celular-->
+         <!--value es texto por defecto-->
+         <!--maxlenght se explica solo-->
+         <label for="celular">celular</label>
+        <input type="tel" name="" id="celular" value="651919616519" maxlength="3"> <br> <br>
+
+        <!--input para numeros-->
+        <!--max y min es para establecer un valor maximo y minimo-->
+        <!--Disabled se explica solo-->
+        <label for="numero">numero</label>
+        <input type="number" name="" id="numero" max="18" min="10" disabled><br> <br>
+
+
+        <!--Input radio -->
+        <!--Deben tener el mismo nombre para solo poder seleccionar uno-->
+        <!--Value se necesita para que a la base de datos le llegue un valor-->
+        <label for="panes">concha</label>
+        <input type="radio" name="Pan_fav" id="panes" value="concha"> <br><br>
+        <label for="panes2">pan frances</label>
+        <input type="radio" name="Pan_fav" id="panes2" value="pan frances"> <br><br>
+        <label for="panes3">Oreja</label>
+        <input type="radio" name="Pan_fav" id="panes3" value="Oreja"> <br><br>
+
+        <!--Checkbox-->
+        <label for="perro">perro</label>
+        <input type="checkbox" name="Fav_animal" id="perro" value="perro"> <br><br>
+        <label for="gato">gato</label>
+        <input type="checkbox" name="Fav_animal" id="gato" value="gato"> <br><br>
+        <label for="manati">manati</label>
+        <input type="checkbox" name="Fav_animal" id="manati" value="manati"> <br><br>
+        <input type="color" name="" id=""><br> <br>
+
+        <!--Para seleccionar una fecha-->
+        <input type="date" name="" id=""> <br><br>
+        <!--Selecciona una fecha y hora-->
+        <input type="datetime-local" name="" id=""> <br><br>
+
+        <!--Para subir archivos-->
+        <input type="file" name="" id=""> <br><br>
+
+        <!--pone una imagen como boton para enviar-->
+        <input type="image" src="" alt="">
+
+        <!--  buscar  -->
+        <input type="search" name="" id=""> <br><br>
+
+        <!-- el place holder es para poner texto indicativo-->
+      <!--Boton de enviar input submit-->
+        <input type="submit" value="Enviar">
+        <!--para limpiar el formulario-->
+        <input type="reset" value="reset">
+    </form>
+</body>
+</html>
