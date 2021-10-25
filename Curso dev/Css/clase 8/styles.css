@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* section{
+    display: flex;
+    height: 250px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background-color: violet;
+}
+
+
+div{
+    height: 50px;
+    padding: 10px;
+    background-color: blueviolet;
+    border: 1px solid pink;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+} */
+
+section{
+    display: grid;
+    grid-template-columns: 50% 50% ;
+}
+
+
+section div{
+    height: 50px;
+    background: yellow;
+    display: grid;
+    border: 1px solid black;
+}
