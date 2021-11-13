@@ -1,0 +1,171 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Supermercado One';
+}
+
+header{
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    
+}
+
+.Desc{
+    color: white;
+}
+
+.h1-G{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 50px;
+    height: 70px;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-image: url('https://cdn.wallpapersafari.com/96/95/7bqP4V.png');
+}
+
+
+main img{
+    margin-top: 10px;
+    height: 600px;
+    width: 500px;
+}
+
+
+.card{
+    margin: 10px 0px 0px 0px;
+    height: 580px;
+    width: 463px;
+    border: 10px  solid #5a6779;
+    background-image: url('https://coolwallpapers.me/picsup/5563691-clash-royale-hd-wallpapers.jpg');
+    background-size: 500px 315px;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.card:hover{
+    border: 10px  solid #ff0000;
+    border-radius: 10px;
+    height: 580px;
+    width: 453px;
+    background-image: url('https://i.gifer.com/origin/27/27dc29a27242bc075142197b4c5f9416.gif');
+    background-size: 500px 315px;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+
+.title-c{
+    background-color: #64697d;
+}
+
+.title-c h2{
+    text-align: center;
+    text-shadow: 1px 4px 0px black;
+    height: 40px;
+    color: white;
+    font-size: 25px;
+}
+
+.img-desc{
+    display: flex;
+    justify-content: space-between;
+}
+
+.caldiad-type{
+    display: inline-block;
+    margin: 30px 30px 10px 10px;
+    border-radius: 5px;
+    height: 60px;
+    width: 232px;
+    background-color: rgb(92, 194, 197);
+}
+
+.calidad{
+    color: white;
+    font-size: 20px;
+    margin: 5px 9px;
+}
+
+.type{
+    color: white;
+    font-size: 20px;
+    margin: -49px 136px;
+}
+
+.epica{
+    color: purple;
+    font-size: 20px;
+    margin: -6px 0px 0px 10px;
+    text-shadow: 0px 1px 5px black;
+
+}
+
+.img-desc img{
+    margin: 5px 0px 0px 15px;
+    height: 230px;
+    width: 200px;
+}
+
+.tropa{
+    color: white;
+    font-size: 20px;
+    margin: 49px 136px;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 0px 1px 5px black;
+}
+
+.stats{
+    position: relative;
+    margin-top: 40px;
+    height: 265px;
+    width: 100%;
+    background-color: #dfecf2;
+}
+
+.stats-in{
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+
+.iconos{
+    display: grid;
+    padding: 7px 0px 0px 0px;
+    margin: 2px 0px 0px 0px;
+}
+
+.vida-ico, .daño-ico,.objetivos-ico,.alcance-ico{
+    height: 40px;
+    width: 40px;
+    padding: 0px 0px 0px 120px;    
+    margin-top: 0px;
+}
+
+.stats-L{
+    margin-top: 53px;
+}
+
+.vida,.Objetivos{
+    background-color: #c1d2dc;
+
+}
+
+.Daño,.Alcance{
+    background-color: rgb(255 255 255);
+}
+
+.vida,.Daño,.Objetivos,.Alcance{
+    font-size: 10%;
+    margin: -89px 10px 10px 160px;
+    font-size: 17px;
+    color: rgb(68, 68, 68);
+    width: 134px;
+    height: 38px;
+}
+
