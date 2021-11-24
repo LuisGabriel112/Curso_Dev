@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Supermercado+One&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Josefin Sans';
+}
+
+
+
+
+header{
+    height: 939px;
+    background: rgb(20,20,20);
+    background: linear-gradient(90deg, rgba(20,20,20,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+.letters{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    padding-top: 279px;
+}
+
+.letters2{
+    display: flex;
+    justify-content: center;
+}
+
+.letters h1{
+    color: #E4E4E4;
+    font-size: 170px;
+    font-weight: 100;
+    background: none;
+}
+
+.letters2 h2{
+    color: #A0A0A0;
+    font-weight: 300;
+    background: none;
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px 0px -50px;
+}
+
+.social-media a{
+    color: #606060;
+    text-decoration: none;
+    margin-left: 50px;
+    background: none;
+}
+
+.social-media a:hover{
+    color: #606060;
+}
+
+.fa-github,.fa-instagram,.fa-facebook,.fa-twitter{
+    font-size: 40px;
+    transition: 1s;
+    background: none;
+}
+
+.fa-github:hover{
+    color: cadetblue;
+    font-size: 50px;
+    transition: 1s;
+}
+
+.fa-instagram:hover{
+    color: #AE08D7;
+    font-size: 50px;
+    transition: 1s;
+}
+
+.fa-facebook:hover{
+    color: #0878D7;
+    font-size: 50px;
+    transition: 1s;
+}
+
+.fa-twitter:hover{
+    color: #17D7DE;
+    font-size: 50px;
+    transition: 1s;
+}
+
+.white-secc{
+    height: 900px;
+    width: 100%;
+    background: #E4E4E4;
+    display: flex;
+    justify-content: center;
+}
+
+.white-secc h2{
+    color: #080808;
+    font-size: 100px;
+    margin-top: 40px;
+}
+
+
+.hs{
+    width: 100%;
+}
+
+.imgs{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    height: 900;
+    width: 100%;
+    background: #E4E4E4;
+    margin-top: 164px;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.img1 .img2 .img3 .img4{
+    border: #E4E4E4;
+}
+
+.pru{
+    position: relative;
+}
+
+.black{
+    background: black;
+    z-index: 1;
+    position: absolute;
+    left: 17px;
+    border-radius: 10px;
+    height: 350px;
+    width: 600px;
+}
+
+
+
+.img1 img{
+    height: 350px;
+    width: 600px;
+    border-radius: 10px;
+    background: none;
+}
+
+.black{
+    height: 350px;
+    width: 600px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.014);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    cursor: pointer;
+}
+
+.in-black-und{
+    height: 350px;
+    width: 600px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.014);
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    cursor: pointer;
+}
+
+.in-black-und:hover{
+    background-color: rgba(0, 0, 0, 0.972);
+    transition: 0.5s;
+}
+
+.black:hover{
+    background-color: rgba(0, 0, 0, 0.972);
+    transition: 0.5s;
+}
+
+.in-black{
+    position: absolute;
+    top: 170px;
+    left: 260px;
+    color: rgb(218, 218, 218);
+}
+
+
+/* .img1:hover{
+} */
+
+.img2 img{
+    height: 350px;
+    width: 600px;
+    border-radius: 10px;
+    background: none;
+}
+
+.img3 img{
+    height: 350px;
+    width: 600px;
+    border-radius: 10px;
+    background: none;
+}
+
+
+.img4 img{
+    height: 350px;
+    width: 600px;
+    border-radius: 10px;
+    background: none;
+    margin-top: 40px;
+}
+
+.img5 img{
+    height: 350px;
+    width: 600px;
+    border-radius: 10px;
+    background: none;
+    margin-top: 40px;
+}
+
+.img6 img{
+    height: 350px;
+    width: 600px;
+    border-radius: 10px;
+    background: none;
+    margin-top: 40px;
+}
+
+section{
+    height: 963px;
+    background-color: #1d1d1d;
+    width: 100%;
+}
+
+section path{
+    border: green 1px solid;
+}
+
+.content{
+    position: relative;
+}
+
+.carta{
+    position: absolute;
+    top: 90px;
+    left: 100px;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    border-radius: 15px;
+    height: 490px;
+    width: 970px;
+}
+
+.carta2{
+    position: absolute;
+    top: 95px;
+    left: 105px;
+    background: rgb(39, 39, 39);
+    border-radius: 15px;
+    height: 480px;
+    width: 960px;
+}
+
+.carta2 h2{
+    margin: 20px 0px 0px 30px;
+    color: #E4E4E4;
+}
