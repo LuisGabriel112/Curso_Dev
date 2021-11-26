@@ -263,5 +263,26 @@ section path{
 
 .carta2 h2{
     margin: 20px 0px 0px 30px;
-    color: #E4E4E4;
+    color: #d4d4d4;
+}
+
+.carta2 p{
+    color: #f5f5f5;
+    font-size: 40px;
+    margin: 40px 30px 0px 30px;
+}
+
+.cont-img{
+    position: relative;
+}
+
+.cont-img img{
+    position: absolute;
+    top: 400px;
+    right: 200px;
+    height: 400px;
+    width: 400px;
+    border-radius: 100px;
+    box-shadow:  32px 32px 64px #8a7726,
+                 -32px -32px 64px #c75d33;
 }

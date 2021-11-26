@@ -10,6 +10,8 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
   <script src="https://kit.fontawesome.com/4c5ef1c797.js" crossorigin="anonymous"></script>
   <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -38,27 +40,27 @@
             <div class="imgs">
                 <div data-aos="fade-up" data-aos-duration="2000" class="img1">
                     <img src="https://media.discordapp.net/attachments/761317603414638622/911280388503126067/unknown.png?width=1345&height=676" alt="">
-                    <div onclick="ir()" class="black"><p class="in-black">Click</p></div>
+                    <div onclick="ir(1)" class="black"><p class="in-black">Click</p></div>
                 </div>
                 <div data-aos="fade-down" data-aos-duration="2000" class="img2">
-                    <img src="https://media.discordapp.net/attachments/761317603414638622/911280388775747615/unknown.png?width=1360&height=676" alt="">
-                    <div onclick="ir()" class="black"><p class="in-black">Click</p></div>
+                    <img src="https://cdn.discordapp.com/attachments/761317603414638622/913491100117909546/unknown.png" alt="">
+                    <div onclick="ir(2)" class="black"><p class="in-black">Click</p></div>
                 </div>
                 <div data-aos="fade-up" data-aos-duration="2000" class="img3">
                     <img src="https://media.discordapp.net/attachments/761317603414638622/911280389056786442/unknown.png?width=1345&height=676" alt="">
-                    <div onclick="ir()" class="black"><p class="in-black">Click</p></div>
+                    <div onclick="ir(3)" class="black"><p class="in-black">Click</p></div>
                 </div>
                 <div data-aos="fade-up" data-aos-duration="2000" class="img4">
                     <img src="https://media.discordapp.net/attachments/761317603414638622/911280389274886214/unknown.png?width=1360&height=677" alt="">
-                    <div onclick="ir()" class="in-black-und"><p class="in-black">Click</p></div>
+                    <div onclick="ir(4)" class="in-black-und"><p class="in-black">Click</p></div>
                 </div>
                 <div data-aos="fade-down" data-aos-duration="2000" class="img5">
                     <img src="https://media.discordapp.net/attachments/761317603414638622/911280389576884234/unknown.png?width=1364&height=676" alt="">
-                    <div onclick="ir()" class="in-black-und"><p class="in-black">Click</p></div>
+                    <div onclick="ir(5)" class="in-black-und"><p class="in-black">Click</p></div>
                 </div>
                 <div data-aos="fade-up" data-aos-duration="2000" class="img6">
                     <img src="https://media.discordapp.net/attachments/761317603414638622/911280389874655302/unknown.png?width=1355&height=677" alt="">
-                    <div onclick="ir()" class="in-black-und"><p class="in-black">Click</p></div>
+                    <div onclick="ir(6)" class="in-black-und"><p class="in-black">Click</p></div>
                 </div>
             </div>
         </div>
@@ -66,7 +68,13 @@
     <section>
         <div class="content">
             <div class="carta"></div>
-            <div class="carta2"><h2>Quien soy?</h2></div>
+            <div class="carta2"><h2 id="letras"></h2>
+                <div><p id="palabras">Hey! me llamo luis soy de torreon coah. soy front-end developer junior en proceso de aprendizaje :D</p></div>
+            </div>
+        </div>
+
+        <div data-aos="fade-up" data-aos-duration="2000" class="cont-img">
+            <img src="assets/img/Sin título-1.jpg" alt="">
         </div>
     </section>
     <script src="js/main.js"></script>
