@@ -1,0 +1,113 @@
+/* .cuadro{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+}
+
+#snorlax{
+    height: 100px;
+    width: 100px;
+}
+
+#snorlax2{
+    height: 100px;
+    width: 100px;
+}
+
+#container2{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(143, 253, 0);
+}
+
+#container3{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(0, 173, 253);
+} */
+
+body{
+    background-image: url('https://media.discordapp.net/attachments/761317603414638622/916041211461120120/AAAABWeONNjIBjcz542Kzm17of6wIhQp9cujpx0w_WcLk7swBTIEGHJLxk0i4vJd35IetGEEgNg-jP_q2uAB1ZyRpccNMBg7.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+    backdrop-filter: brightness(60%);
+}
+
+#piezas {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    margin: auto;
+    justify-content: center;
+}
+
+#rompecabezas {
+    border: 1px solid black;
+    width: 318px;
+    height: 495px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.pieza {
+    width: 106px;
+    height: 165px;
+    background-size: cover;
+    margin: 10px;
+}
+
+.placeholder {
+    background-color: #F2F2F2;
+    outline: 1px solid #333;
+    width: 106px;
+    height: 165px;
+    transition: 1s;
+}
+
+.placeholder.hover {
+    background-color: orange;
+}
+
+.placeholder .pieza {
+    margin: 0;
+}
+
+#mensaje {
+    color: black;
+    text-align: center;
+    display: none;
+}
+
+.ganaste {
+    background-image: url('');
+}
+
+.ganaste #mensaje {
+    display: block;
+}
+
+.ganaste .placeholder {
+    outline: none;
+}
+
+.ganaste #piezas {
+    display: none;
+}
+
+.container {
+    margin-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1;
+    backdrop-filter: blur(10px);
+    
+}
+
+.titulo{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 50px;
+}
