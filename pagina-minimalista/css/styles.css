@@ -125,6 +125,10 @@ header{
     position: relative;
 }
 
+main{
+    position: relative;
+}
+
 .black{
     background: black;
     z-index: 1;
@@ -227,9 +231,11 @@ header{
 }
 
 section{
+    margin-top: 27px;
     height: 963px;
     background-color: #1d1d1d;
     width: 100%;
+    position: relative;
 }
 
 section path{
@@ -285,4 +291,76 @@ section path{
     border-radius: 100px;
     box-shadow:  32px 32px 64px #8a7726,
                  -32px -32px 64px #c75d33;
+}
+
+.swal2-title {
+    color: rgb(231, 231, 231);
+  }
+
+@media only screen and (max-width: 1816px){
+    .img3 img{
+        margin-top: 43px;
+    }
+    section{
+        margin-top: 419px;
+    }
+}
+
+@media only screen and (max-width: 1695px) {
+    .cont-img img{
+        right: 154px;
+        height: 350px;
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 1578px){
+    .cont-img img{
+        right: 100px;
+    }
+}
+
+@media only screen and (max-width: 1518px){
+    .cont-img img{
+        right: 90px;
+        height: 310px;
+        width: 310px;
+        border-radius: 65px;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    header{
+        width: 1100px;
+    }
+    .imgs{
+        width: 109%;
+    }
+    .white-secc{
+        width: 108%;
+    }
+    section{
+        width: 108%;
+        margin-top: 770px;
+    }
+
+    .carta{
+        height: 400px;
+        width: 890px;
+    }
+
+    .carta2{
+        height: 390px;
+        width: 880px;
+    }
+
+    .cont-img img{
+        right: 90px;
+        height: 271px;
+        width: 265px;
+        border-radius: 65px;
+        top: 621px;
+    }
+
+    
 }
