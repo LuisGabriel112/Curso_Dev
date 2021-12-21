@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: #8ED3E6;
+}
+
+main{
+    position: relative;
+}
+
+main h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+    color: #3A9AB4;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+main form{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+main div{
+    text-align: center;
+    background: rgb(60,89,97);
+    background: linear-gradient(52deg, rgba(60,89,97,1) 0%, rgba(55,148,173,1) 50%, rgba(142,211,230,1) 100%);    
+    margin: 0px 0px 40px 10px;
+    height: 330px;
+    width: 350px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    border-radius: 15px;
+}
+
+main div:hover{
+    background: rgba( 142, 211, 230, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+#enviar{
+    margin-left: 10px;
+    height: 40px;
+    width:90px;
+    background: #3C5961;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+}
+
+#enviar:hover{
+    background-color: #3A9AB4;
+}
+
+#nombre{
+    background: #3C5961;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 360px;
+    color: white;
+    font-size: 40px;
+}
+
+
+#padre{
+    position: relative;
+}
+
+#dltbtn{
+    position: absolute;
+}
+
+.dlt{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 272px;
+    right: 30px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+
+.fa-trash-alt{
+    color: black;
+    position: absolute;
+    top: 10px;
+    left: 12px;
+}
