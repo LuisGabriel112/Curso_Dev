@@ -11,7 +11,7 @@ body{
 }
 
 aside{
-    height: 1080px;
+    height: 939px;
     background-color: #141213;
     width: 400px;
 }
@@ -31,17 +31,66 @@ ul{
     list-style: none;
 }
 
-ul li i{
+.fa-bitcoin{
     position: absolute;
     top: 200px   ;
-    left: 127px;
+    left: 90px;
     font-size: 30px;
     color: #f0dca4;
+}
+
+
+.fa-medal{
+    position: absolute;
+    top: 330px   ;
+    left: 90px;
+    font-size: 30px;
+    color: #f0dca4;
+}
+
+.fa-question{
+    position: absolute;
+    top: 575px   ;
+    left: 97px;
+    font-size: 30px;
+    color: #f0dca4;
+}
+
+.fa-balance-scale{
+    position: absolute;
+    top: 450px;
+    left: 81px;
+    font-size: 30px;
+    color: #f0dca4;
+}
+ul li{
+    margin-bottom: 100px;
 }
 
 .list-aside a{
     text-decoration: none;
     color: #E6CC85;
+}
+
+.list-aside a:hover{
+    color: #CCB576;
+}
+
+.line{
+    position: absolute;
+    bottom: 90px;
+    border-bottom: 1px;
+    background: white;
+    height: 1px;
+    width: 400px;
+}
+
+.line p{
+    text-align: center;
+    color: #f0dca4;
+    font-weight: 500;
+    margin-top: 15px;
+    font-size: 10px;
 }
 
 .cont-graphs{
