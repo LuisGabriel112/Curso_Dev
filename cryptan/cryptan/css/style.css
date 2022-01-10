@@ -200,3 +200,36 @@ main {
         left: -159px;
     }
 }
+
+@media only screen and (max-width: 282px){
+  .form-cont{
+      height: 504px;
+      width: 225px;
+  }
+  #mail{
+      width: 217px;
+      font-size: 20px;
+  }
+  #contraseña{
+      width: 212px;
+      margin-top: 20px;
+      left: 5px;
+      font-size: 20px;
+  }
+  #iniciar{
+      left: 14px;
+  }
+  .form-cont h2 a{
+      left: -169px;
+      width: 10px;
+  }
+
+  .fa-at{
+    top: 165px;
+    font-size: 20px;
+  }
+  .fa-lock{
+    top: 222px;
+    font-size: 20px;
+  }
+}
