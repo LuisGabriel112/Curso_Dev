@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Supermercado+One&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Work Sans';
+}
+
+body{
+    background: #f0dca4;
+}
+
+aside{
+    height: 939px;
+    background-color: #141213;
+    width: 400px;
+}
+
+aside img{
+    margin-left: 26%;
+    height: 200px;
+    width: 200px;
+}
+
+.list-aside{
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    list-style: none;
+}
+
+.fa-bitcoin{
+    position: absolute;
+    top: 200px   ;
+    left: 90px;
+    font-size: 30px;
+    color: #f0dca4;
+}
+
+
+.fa-medal{
+    position: absolute;
+    top: 330px   ;
+    left: 90px;
+    font-size: 30px;
+    color: #f0dca4;
+}
+
+.fa-question{
+    position: absolute;
+    top: 575px   ;
+    left: 97px;
+    font-size: 30px;
+    color: #f0dca4;
+}
+
+.fa-balance-scale{
+    position: absolute;
+    top: 450px;
+    left: 81px;
+    font-size: 30px;
+    color: #f0dca4;
+}
+ul li{
+    margin-bottom: 100px;
+}
+
+.list-aside a{
+    text-decoration: none;
+    color: #E6CC85;
+}
+
+.list-aside a:hover{
+    color: #CCB576;
+}
+
+.line{
+    position: absolute;
+    bottom: 90px;
+    border-bottom: 1px;
+    background: white;
+    height: 1px;
+    width: 400px;
+}
+
+.line p{
+    text-align: center;
+    color: #f0dca4;
+    font-weight: 500;
+    margin-top: 15px;
+    font-size: 10px;
+}
+
+.cont-graphs{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 1314px;
+    left: 480px;
+    top: 30px;
+}
