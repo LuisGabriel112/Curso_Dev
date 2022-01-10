@@ -13,7 +13,7 @@ const redireccion = () => {
     Swal.fire({
         title: 'Correcto',
         icon: 'success',
-        html: '<a href="https://luisgabriel112.github.io/Curso_Dev/cryptanPage/dashboard.html">Igresa a tu panel de control</a>',
+        html: '<a href="https://luisgabriel112.github.io/Curso_Dev/dashboard/dashboard.html">Igresa a tu panel de control</a>',
         timer: 10000,
         showConfirmButton: false,
         background: '#fdfacf',
