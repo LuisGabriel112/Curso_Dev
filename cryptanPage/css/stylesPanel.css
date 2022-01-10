@@ -5,3 +5,50 @@
     margin: 0px;
     font-family: 'Work Sans';
 }
+
+body{
+    background: #f0dca4;
+}
+
+aside{
+    height: 1080px;
+    background-color: #141213;
+    width: 400px;
+}
+
+aside img{
+    margin-left: 26%;
+    height: 200px;
+    width: 200px;
+}
+
+.list-aside{
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li i{
+    position: absolute;
+    top: 200px   ;
+    left: 127px;
+    font-size: 30px;
+    color: #f0dca4;
+}
+
+.list-aside a{
+    text-decoration: none;
+    color: #E6CC85;
+}
+
+.cont-graphs{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 1314px;
+    left: 480px;
+    top: 30px;
+}
